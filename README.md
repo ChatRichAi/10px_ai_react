@@ -35,3 +35,7 @@
 9、启动项目
      -｜npm install @headlessui/react react-textarea-autosize
      -|npm run dev
+
+10、如果遇到环境变量冲突，临时设置LD_LIBRARY_PATH 并运行 npm run dev：
+      - ｜     export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+      - ｜     npm run dev
